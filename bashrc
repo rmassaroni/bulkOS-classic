@@ -148,18 +148,6 @@ function set-title() {
   PS1=${ORIG}${TITLE}
 }
 
-function n() {
-    nvim
-}
-
-function config() {
-    cd ~/.config
-}
-
-function projects() {
-    cd /mnt/c/Users/12012/projects
-}
-
 function weather() {
     curl wttr.in/?0?q?T
 }
