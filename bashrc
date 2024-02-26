@@ -140,6 +140,13 @@ update_clock() {
 }
 #PROMPT_COMMAND=update_clock
 
+#directory source
+dir="/mnt/c/Users/12012/projects/scripts/gpush"
+source "$dir/gconfig.sh"
+source "$dir/gcopy.sh"
+source "$dir/glink.sh"
+source "$dir/gpush.sh"
+
 function set-title() {
   if [[ -z "$ORIG" ]]; then
     ORIG=$PS1
