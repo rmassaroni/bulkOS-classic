@@ -1,1 +1,0 @@
-/mnt/c/Users/12012/projects/scripts/shortcuts.sh
