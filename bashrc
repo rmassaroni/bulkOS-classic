@@ -140,7 +140,10 @@ update_clock() {
 }
 #PROMPT_COMMAND=update_clock
 
-#directory source
+
+
+dir="/mnt/c/Users/12012/projects/scripts"
+source "$dir/shortcuts.sh"
 dir="/mnt/c/Users/12012/projects/scripts/gpush"
 source "$dir/gconfig.sh"
 source "$dir/gcopy.sh"
