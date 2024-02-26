@@ -1,0 +1,3 @@
+[submodule "rjscripts"]
+	path = rjscripts
+	url = https://github.com/rmassaroni/rjscripts
