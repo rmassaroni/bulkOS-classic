@@ -113,7 +113,7 @@
                 "opacity": 90,
                 "padding": "8",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "C:\\Users\\12012\\projects",
+                "startingDirectory": "C:\\Users\\12012\\dev",
                 "tabColor": "#1D3878",
                 "tabTitle": "bulkOS",
                 "useAcrylic": false
