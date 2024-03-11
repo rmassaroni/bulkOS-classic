@@ -142,45 +142,24 @@
                 "tabTitle": "bulkOS-config"
             },
             {
-                "adjustIndistinguishableColors": "never",
-                "antialiasingMode": "grayscale",
-                "backgroundImageOpacity": 0.13,
-                "bellStyle": "none",
-                "colorScheme": "Campbell",
-                "commandline": "wt -w 0 nt",
+                "commandline": "wt -p {2c4de342-38b7-51cf-b940-2309a097f518} -d C:\\Users\\12012\\projects wsl mysql -u rjm -p",
                 "elevate": false,
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "cellHeight": "1.3",
-                    "size": 9.0,
-                    "weight": "semi-light"
-                },
-                "guid": "{01ef5a44-32f3-42f1-b2ac-ec0fa5177612}",
-                "hidden": true,
-                "historySize": 15000,
-                "icon": "C:\\Users\\12012\\Desktop\\Icons\\bulkOS-image.ico",
-                "intenseTextStyle": "bright",
-                "name": "bulkOS (Copy)",
-                "opacity": 90,
-                "padding": "8",
-                "startingDirectory": "C:\\Users\\12012\\projects",
-                "tabColor": "#1D3878",
-                "tabTitle": "bulkOS",
-                "useAcrylic": false
-            },
-            {
-                "commandline": "\"C:\\Program Files\\MySQL\\MySQL Server 8.3\\bin\\mysql.exe\" \"--defaults-file=C:\\ProgramData\\MySQL\\MySQL Server 8.3\\my.ini\" \"-uroot\" \"-p\"",
-                "font": 
-                {
-                    "cellHeight": "1.3",
-                    "size": 9.0
-                },
-                "guid": "{d56d7c10-ff43-4f3a-8545-65dbc55eef08}",
+                "guid": "{56a85f2d-1573-433f-aad8-f83d9fd4994d}",
                 "hidden": false,
                 "name": "MySQL",
-                "tabTitle": "MySQL",
-                "useAcrylic": false
+                "tabTitle": "MySQL"
+            },
+            {
+                "commandline": null,
+                "guid": "{06c83f35-592f-4773-be7e-73ca3f0df341}",
+                "hidden": false,
+                "name": "bulkOS + MySQL"
+            },
+            {
+                "commandline": "mysql -u rjm -p",
+                "guid": "{821b27cc-2019-4a1d-b2f0-b22a2d8baf59}",
+                "hidden": false,
+                "name": "Profile 9"
             }
         ]
     },
@@ -239,5 +218,6 @@
             }
         }
     ],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting"
 }

@@ -158,6 +158,11 @@ function set-title() {
   PS1=${ORIG}${TITLE}
 }
 
+function profile-title() {
+    local profile_name="$(basename "$1")"
+    set-title "$profile_name"
+}
+
 function weather() {
     curl wttr.in/?0?q?T
 }
@@ -166,7 +171,8 @@ function weather-l() {
     curl wttr.in/?0?q?T | awk '/°(C|F)/ {printf $(NF-1) $(NF) " ("a")"} /,/ {a=$0}'
 }
 
-set-title bulkOS
+#set-title bulkOS
+profile-title
 #n
 
 echo " ________         __                                 __              __           __ __     _______ _______ "
